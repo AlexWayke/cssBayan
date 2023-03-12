@@ -98,3 +98,36 @@ h3{
     opacity: 1;
     transform: scale(1);
 }
+@media (min-width:569px) {
+    h1{
+        font-size: 1.6em;
+    }
+    h3{
+        font-size: 1.2em;
+    }
+    .bayan__item-title {
+        text-transform: uppercase;
+        height: 1.2em;
+    }
+    .bayan {
+        max-width: 40rem;
+    }
+}
+@media (min-width:1181px) {
+    h1{
+        font-size: 2em;
+    }
+    h3{
+        font-size: 1.4em;
+    }
+    .bayan__item-title {
+        text-transform: uppercase;
+        height: 1.4em;
+    }
+    .bayan {
+        max-width: 80rem;
+    }
+    .bayan-item input:checked ~ label .bayan__item-image {
+        height: 36rem;
+    }
+}
